@@ -20,45 +20,54 @@ const projects = [
     name: "Vaultify",
     description:
       "A cloud storage web app built with Next.js and Appwrite, allowing users to securely upload, manage, and access their files online. It offers a clean, intuitive interface with real-time file handling and user authentication.",
-      iconLists: ["/public/images/exp2.png", "/public/tech/typescript.png", "/public/tech/tailwind.png","/public/next.svg"],
+      iconLists: ["/images/exp2.png", "/tech/typescript.png", "/tech/tailwind.png","/next.svg"],
       link: "https://vaultify-topaz.vercel.app/sign-in",
-      image: '/public/images/vaultifyp.png',
+      image: '/images/vaultifyp.png',
      source_code_link: "https://github.com/Manishdevaraj/Vaultify.git",
   },
   {
     name: "Result Wiz",
     description:
       "A result management platform built for my college using React, MongoDB, and Tailwind CSS, enabling students to view their academic results and administrators to efficiently manage and publish them.",
-      iconLists: ["/public/tech/reactjs.png", "/public/tech/typescript.png", "/public/tech/tailwind.png","/public/next.svg"],
+      iconLists: ["/tech/reactjs.png", "/tech/typescript.png", "/tech/tailwind.png","/next.svg"],
       link: "https://skctresultwiz.vercel.app/sign-in",
-    image: '/public/images/skctp.png',
+    image: '/images/skctp.png',
     source_code_link: "https://github.com/Manishdevaraj/RESULT_WIZ_Client.git",
   },
   {
     name: "Live Doc",
     description:
       "A real-time collaborative document editor built with React and Socket.IO, allowing multiple users to edit and sync documents live. It features seamless live updates, multi-user support, and document persistence.",
-      iconLists: ["/public/tech/reactjs.png", "/public/tech/typescript.png", "/public/tech/tailwind.png","/public/next.svg"],
+      iconLists: ["/tech/reactjs.png", "/tech/typescript.png", "/tech/tailwind.png","/next.svg"],
       link: "https://docment-collab.vercel.app/",
-    image: '/public/images/livedocp.png',
+    image: '/images/livedocp.png',
     source_code_link: "https://github.com/Manishdevaraj/Live-Doc.git",
   },
+  // {
+  //   name: "N8N Autoamation",
+  //   description:
+  //     "An open-source workflow automation tool that allows users to automate tasks and integrate various apps with no code, enabling seamless data flow and process automation. It supports custom workflows and extensive integrations for streamlined operations.",
+  //     iconLists: ["/public/images/n8n.png"],
+  //     link: "https://n8n.io/",
+  //   image: '/public/images/n8np.png',
+  //   source_code_link: "https://github.com/Manishdevaraj",
+  // },
   {
-    name: "N8N Autoamation",
+    name: "VolHub",
     description:
-      "An open-source workflow automation tool that allows users to automate tasks and integrate various apps with no code, enabling seamless data flow and process automation. It supports custom workflows and extensive integrations for streamlined operations.",
-      iconLists: ["/public/images/n8n.png"],
-      link: "https://n8n.io/",
-    image: '/public/images/n8np.png',
-    source_code_link: "https://github.com/Manishdevaraj",
+      "VolHub is a volunteer event management platform that connects students with social service opportunities. It allows users to discover, register for, and track volunteer events, making it easy for both organizers and volunteers to manage and participate in community activities.",
+      iconLists: ["/tech/reactjs.png","/tech/tailwind.png", "/tech/springboot.svg", "/tech/javascript.png"],
+      // link: "https://whatsapp-clone-42627.firebaseapp.com/",
+    image: '/volhub.png',
+    source_code_link: "https://github.com/Manishdevaraj/Volhub_SDP_Client.git",
   },
   {
     name: "Whatsapp Clone",
     description:
       "A WhatsApp clone built with React and Socket.IO, enabling real-time messaging, user authentication, and message storage for seamless communication. It also supports media sharing, group chats, and peer-to-peer video and audio calls using WebRTC for enhanced user interaction.",
-      iconLists: ["/public/tech/reactjs.png", "/public/tech/nodejs.png", "/public/tech/javascript.png"],
+      iconLists: ["/tech/reactjs.png","/tech/tailwind.png", "/tech/nodejs.png", "/tech/javascript.png"],
       link: "https://whatsapp-clone-42627.firebaseapp.com/",
-    image: '/public/images/wbp.png',
+    image: 'images/wbp.png',
     source_code_link: "https://github.com/Manishdevaraj/Whatsapp-Clone.git",
   },
 
