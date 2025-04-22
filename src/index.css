@@ -81,7 +81,7 @@ section {
   }
 
   .hero-layout {
-    @apply flex flex-col-reverse gap-10 items-start justify-center  z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] xl:items-center ;
+    @apply flex flex-col-reverse gap-10 items-start justify-center  z-10 xl:mt-20 mt-32 md:h-dvh h-[100vh] xl:items-center ;
   }
 
   .hero-text {

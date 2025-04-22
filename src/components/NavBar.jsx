@@ -42,7 +42,7 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
+        <a href="#contact" className="px-5 py-2 rounded-lg bg-blue-500 text-white hover:bg-black-50 transition-colors duration-300">
           <div className="inner">
             <span>Contact me</span>
           </div>
