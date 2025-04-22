@@ -56,7 +56,12 @@ const ProjectCard = ({
   link
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div 
+    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.3 }}
+    >
       <Tilt
         options={{
           max: 45,
@@ -106,14 +111,14 @@ const ProjectCard = ({
                           ))}
                         </div>
         
-                        {link&&<div className="flex justify-center items-center hover:cursor-pointer" onClick={()=>{
+                        <div className="flex justify-center items-center hover:cursor-pointer" onClick={()=>{
                           window.open(link, "_blank")
                         }}>
                           <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                             Check Live Site
                           </p>
                           <FaLocationArrow className="ms-3" color="#CBACF9" />
-                        </div>}
+                        </div>
                       </div>
       </Tilt>
     </motion.div>
@@ -123,7 +128,11 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()}
+       initial="hidden"
+       whileInView="show"
+       viewport={{ once: true, amount: 0.3 }}
+      >
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
@@ -132,6 +141,9 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.3 }}
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with

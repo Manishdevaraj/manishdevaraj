@@ -9,7 +9,7 @@ import Tech from "./sections/Tech"
 
 const App = () => {
   return (
-    <div className="scroll-smooth">
+    <div>
     <NavBar/>
       <Hero/>
       {/* <FeatureCards/> */}
@@ -20,7 +20,7 @@ const App = () => {
       </section>
 
       <section id='projects'>
-      <Project/>
+         <Project/>
       </section>
 
       <Contact/>
