@@ -13,11 +13,13 @@ import CanvasLoader from "../Loader";
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
+  if (!decal) return null; // if not loaded yet, skip rendering
+
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
-      <mesh castShadow receiveShadow scale={2.75}>
+      <mesh castShadow receiveShadow scale={2.5}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
           color='#fff8eb'
@@ -37,22 +39,21 @@ const Ball = (props) => {
   );
 };
 
+
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
       key={icon}
-      frameloop='demand'
-      dpr={[1, 2]}
+      frameloop="always" // "demand" can delay rendering unexpectedly on mobile
+      dpr={[1, 1.5]} // reduce max dpr for mobile safety
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
       </Suspense>
-
       <Preload all />
     </Canvas>
   );
 };
-
-export default BallCanvas;
+export default BallCanvas

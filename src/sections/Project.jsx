@@ -111,14 +111,14 @@ const ProjectCard = ({
                           ))}
                         </div>
         
-                        <div className="flex justify-center items-center hover:cursor-pointer" onClick={()=>{
+                        {link&&<div className="flex justify-center items-center hover:cursor-pointer" onClick={()=>{
                           window.open(link, "_blank")
                         }}>
                           <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                             Check Live Site
                           </p>
                           <FaLocationArrow className="ms-3" color="#CBACF9" />
-                        </div>
+                        </div>}
                       </div>
       </Tilt>
     </motion.div>

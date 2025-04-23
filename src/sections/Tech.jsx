@@ -12,10 +12,11 @@ const Tech = () => {
         
         <div className='w-28 h-28' key={index}>
           <BallCanvas icon={technology.icon} />
+          
         </div>
       ))}
     </div>
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default Tech;

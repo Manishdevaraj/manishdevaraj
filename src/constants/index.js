@@ -1,20 +1,39 @@
-const javascript = "/tech/javascript.png";
-const typescript = "/tech/typescript.png";
-const html = "/tech/html.png";
-const css = "/tech/css.png";
-const reactjs = "/tech/reactjs.png";
-const redux = "/tech/redux.png";
-const tailwind = "/tech/tailwind.png";
-const nodejs = "/tech/nodejs.png";
-const mongodb = "/tech/mongodb.png";
-export const git = "/tech/git.png";
-const figma = "/tech/figma.png";
-const docker = "/tech/docker.png";
-const c = "/tech/c++.png";
-const java = "/tech/java.png";
-const py = "/tech/py.png";
-const gcp = "/tech/gcp.png";
-const azure = "/tech/azure.png";
+import javascript from "/tech/javascript.png";
+import typescript from "/tech/typescript.png";
+import css from "/tech/css.png";
+import reactjs from "/tech/reactjs.png";
+import redux from "/tech/redux.png";
+import tailwind from "/tech/tailwind.png";
+import nodejs from "/tech/nodejs.png";
+import mongodb from "/tech/mongodb.png";
+import git from "/tech/git.png";
+import figma from "/tech/figma.png";
+import docker from "/tech/docker.png";
+import c from "/tech/c++.png";
+import java from "/tech/java.png";
+import py from "/tech/py.png";
+import gcp from "/tech/gcp.png";
+import azure from "/tech/azure.png";
+import springboot from "/tech/springboot.svg";
+export {
+  javascript,
+  typescript,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  c,
+  java,
+  py,
+  gcp,
+  azure,
+  springboot
+};
 const projects = [
   {
     name: "Vaultify",
@@ -73,7 +92,7 @@ const projects = [
 
 ];
 const technologies = [
-  { name: "HTML 5", icon: html },
+  { name: "HTML 5", icon: '/tech/html.png' },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
   { name: "TypeScript", icon: typescript },
@@ -89,6 +108,7 @@ const technologies = [
   { name: "MongoDB", icon: mongodb },
   { name: "Git", icon: git },
   { name: "Docker", icon: docker },
+
 ];
 
 
