@@ -210,13 +210,13 @@ export const Other_skill = [
   },
   {
     skill_name: "docker",
-    Image: "/public/dock.svg",
+    Image: "/dock.svg",
     width: 60,
     height: 60,
   },
   {
     skill_name: "Azure",
-    Image: "/public/tech/azure.png",
+    Image: "/tech/azure.png",
     width: 50,
     height: 60,
   },
