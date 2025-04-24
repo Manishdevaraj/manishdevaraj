@@ -91,25 +91,141 @@ const projects = [
   },
 
 ];
-const technologies = [
-  { name: "HTML 5", icon: '/tech/html.png' },
-  { name: "CSS 3", icon: css },
-  { name: "JavaScript", icon: javascript },
-  { name: "TypeScript", icon: typescript },
-  { name: "C++", icon: c },
-  { name: "Java", icon: java },
-  { name: "Python", icon: py },
-  { name: "GCP", icon: gcp },
-  { name: "Azure", icon: azure },
-  { name: "React JS", icon: reactjs },
-  { name: "Redux Toolkit", icon: redux },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
-  { name: "MongoDB", icon: mongodb },
-  { name: "Git", icon: git },
-  { name: "Docker", icon: docker },
 
+export const Skill_data = [
+  {
+    skill_name: "Html 5",
+    Image: "/tech/html.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Css",
+    Image: css,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java Script",
+    Image: javascript,
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "Java",
+    Image: java,
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "c++",
+    Image: c,
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "Python",
+    Image: py,
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: tailwind,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    Image: reactjs,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Redux",
+    Image: redux,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Type Script",
+    Image: typescript,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Next js 13",
+    Image: "/next.svg",
+    width: 70,
+    height: 80,
+  },
+  
+  {
+    skill_name: "Node js",
+    Image: nodejs,
+    width: 70,
+    height: 80,
+  },
+  {
+    skill_name: "Spring Boot",
+    Image: '/tech/springboot.svg',
+    width: 70,
+    height: 80,
+  },
+  {
+    skill_name: "Mongo db",
+    Image: "/tech/mongodb.svg",
+    width: 60,
+    height: 40,
+  },
+  {
+    skill_name: "Mysql",
+    Image: "/tech/mysql.svg",
+    width: 60,
+    height: 40,
+  },
+ 
 ];
+
+
+
+export const Other_skill = [
+  {
+    skill_name: "Git",
+    Image: git,
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "Firebase",
+    Image: "/tech/firebase.svg",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "aws",
+    Image: "/tech/aws.svg",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "docker",
+    Image: "/public/dock.svg",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "Azure",
+    Image: "/public/tech/azure.png",
+    width: 50,
+    height: 60,
+  },
+];
+
+
+
+
+
 
 
 
@@ -398,7 +514,6 @@ const navLinks = [
   ];
   
   export {
-    technologies,
     projects,
     words,
     abilities,
