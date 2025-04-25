@@ -234,6 +234,7 @@ export const Other_skill = [
 
 
 const navLinks = [
+  
     {
       name: "Projects",
       link: "#projects",
